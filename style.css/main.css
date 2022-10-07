@@ -23,6 +23,14 @@ body {
 	visibility: hidden;
 	transition: opacity, height ease-out 0.3s;
 }
+p{
+    font-size: 24px;
+	line-height: 34px;
+	width: 90%;
+	margin: 30px 0;
+    text-indent: 10%;
+
+}
 
 /* General Styles End */
 
@@ -148,6 +156,11 @@ a:hover {
 	color: #fff;
 	font-weight: bold;
 }
+img {
+    width: 30%;
+    height:  200px;
+    float:left;
+  }
 
 .message {
 	font-size: 20px;
@@ -202,59 +215,3 @@ form .form-group {
 	outline: none;
 }
 
-input[type="date"]:focus {
-	border-color: #27ee52;
-}
-
-input[type="date"]::before {
-	content: "😊";
-	padding: 0 20px;
-}
-
-.gender label {
-	cursor: pointer;
-	background-color: #1f9da1;
-	color: #fff;
-	font-weight: bold;
-	padding: 8px 15px;
-	border-radius: 4px;
-	border: 1px solid #27ee52;
-	font-size: 16px;
-}
-
-.gender .male {
-	margin-right: 15px;
-}
-.gender .female {
-	margin-left: 15px;
-}
-button {
-	width: 100%;
-	margin: 30px auto 0;
-	padding: 10px 0;
-	background-color: #1f9da1;
-	color: #fff;
-	border: 1px solid #27ee52;
-	border-radius: 2px;
-	font-size: 16px;
-	font-weight: bolder;
-	cursor: pointer;
-}
-
-button:hover,
-.gender label:hover {
-	border: 1px solid #1f9da1;
-	background-color: #182138;
-	transition: all ease-in-out 0.2s;
-}
-
-input[type="radio"] {
-	margin-right: 5px;
-}
-
-.credits {
-	font-size: 18px;
-	text-align: center;
-	margin-top: 30px;
-}
-/* Home End */
