@@ -1,0 +1,260 @@
+/* General Styles Start */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: "Poppins", serif;
+}
+body {
+	background-color: #110323;
+	color: #0ee6b7;
+}
+
+.show {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity ease-in 0.3s;
+}
+
+.hide {
+  height: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity, height ease-out 0.3s;
+}
+
+/* General Styles End */
+
+/* Alert Styling Start */
+.alert-overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(41, 53, 82, 0.705);
+}
+
+.text-container {
+	position: absolute;
+	left: 50%;
+	height: 6em;
+	width: 40%;
+	background-color: #182138;
+	border-radius: 2px;
+	transform: translate(-50%, 0);
+	box-shadow: 0 0 4px #fff;
+}
+
+.alert-text {
+	line-height: 4em;
+	text-align: center;
+	color: #0ee6b7;
+	font-size: 24px;
+	text-shadow: 0 0 5px #000;
+	font-weight: bold;
+}
+.alert-close {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	line-height: 2em;
+	text-align: center;
+	top: 0;
+	right: 0;
+	margin: 0.3em 0.5em;
+	border-radius: 50%;
+	font-weight: bold;
+	background-color: #0ee6b7;
+	box-shadow: 0 0 2px 1px #fff;
+	color: #000;
+	cursor: pointer;
+}
+
+.alert-close:hover {
+	background-color: rgb(252, 252, 252);
+	box-shadow: 0 0 10px 1px #fff;
+	color: #000;
+}
+/* Alert Styling End */
+
+/* Header Start */
+header {
+	height: 100px;
+	line-height: 100px;
+	margin: 20px 150px 0 100px;
+}
+.navbar .brand {
+	float: left;
+	cursor: pointer;
+}
+
+.navbar .icons {
+	float: right;
+}
+
+ul li {
+	display: inline;
+}
+
+ul li a {
+	font-size: 50px;
+	margin: 0 35px;
+	color: #0ee6b7;
+}
+
+a:hover {
+	border-bottom: solid;
+}
+/* Header End */
+
+/* Home Start */
+.home {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 100px 0;
+}
+
+.home .home-left {
+	width: 50%;
+}
+
+.home-title,
+.akan-name {
+	font-size: 72px;
+	line-height: 108px;
+	letter-spacing: 0.055em;
+	font-weight: bolder;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-stroke: 1.5px #0ee6b7;
+	margin: 40px 0;
+}
+
+.home-left .description {
+	font-size: 24px;
+	line-height: 34px;
+	width: 90%;
+	margin: 30px 0;
+}
+
+.home-left .output {
+	margin-top: 60px;
+	font-size: 50px;
+	line-height: 60px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.message {
+	font-size: 20px;
+	font-weight: normal;
+	margin-left: 230px;
+	color: #0ee6b7;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+.day {
+	font-weight: bolder;
+}
+
+form {
+	background-color: #1d033f36;
+	border-radius: 5px;
+	padding: 80px 100px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+form .form-title {
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	letter-spacing: 0.055em;
+}
+
+form .form-group {
+	margin: 30px 0 0;
+	text-align: center;
+}
+
+.form-group input {
+	margin: 22px 0;
+}
+
+.form-group input[type="date"] {
+	width: 100%;
+	padding: 10px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-color: transparent;
+	color: #fff;
+	outline: none;
+}
+
+input[type="date"]:focus {
+	border-color: #27ee52;
+}
+
+input[type="date"]::before {
+	content: "😊";
+	padding: 0 20px;
+}
+
+.gender label {
+	cursor: pointer;
+	background-color: #1f9da1;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 15px;
+	border-radius: 4px;
+	border: 1px solid #27ee52;
+	font-size: 16px;
+}
+
+.gender .male {
+	margin-right: 15px;
+}
+.gender .female {
+	margin-left: 15px;
+}
+button {
+	width: 100%;
+	margin: 30px auto 0;
+	padding: 10px 0;
+	background-color: #1f9da1;
+	color: #fff;
+	border: 1px solid #27ee52;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+button:hover,
+.gender label:hover {
+	border: 1px solid #1f9da1;
+	background-color: #182138;
+	transition: all ease-in-out 0.2s;
+}
+
+input[type="radio"] {
+	margin-right: 5px;
+}
+
+.credits {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 30px;
+}
+/* Home End */
