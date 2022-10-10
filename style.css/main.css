@@ -103,6 +103,24 @@ h1{
     background: #787c8f
     
 }
+.navbar .brand {
+	float: left;
+	cursor: pointer;
+}
+
+.navbar .icons {
+	float: right;
+}
+
+ul li {
+	display: inline;
+}
+
+ul li a {
+	font-size: 50px;
+	margin: 0 35px;
+	color: #0ee6b7;
+}
 
 a:hover {
 	border-bottom: solid;
