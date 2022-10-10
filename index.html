@@ -15,12 +15,13 @@
 
   <body>
     
-    <!-- Navbar Start -->
     <header>
         <h1 class="container">Akan Names Calculator</h1>
+        
     </header>
+
     <!-- Navbar End -->
-    <p> To view your name as per the Ghanian culture , on the form fill in your date birth and year and you will find out your Akan name.
+    <p>  Find out your Akan name,
         <em>Let the fun begin!!</em>  </p>
     <!-- Landing Page Start -->
     <main>
@@ -32,6 +33,14 @@
             the names are as follows;
             <h1>Akan age calculator</h1>
             <img src="/images/akannames.jpg" alt="image not visible"> 
+         </p>
+         <p id = 'output'>
+             <script>
+                function myFunction() {
+                  var x = document.getElementById("output").value;
+                  document.getElementById("output").innerHTML = "Your Akan Name Is: " + x;
+                }
+                </script>
          </p>
         </div>
      
