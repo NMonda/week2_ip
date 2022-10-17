@@ -11,14 +11,12 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 1. Clone the project from github
 2. Open the project on a live server
 3. Run the project
+
 ## Behavior Driven Development
-Displays Form For Entering Date and Gender
+Displays Form For Entering Date ,Gender and Year of Birth
 INPUT: "User's Birthdate Entered"
 INPUT: "User's Gender Entered"
 OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
-Displays an Error Message if Date Input is a future date
-INPUT: "Future Dates"
-OUTPUT: "Unborn person"
 Displays an Error Message if Gender Not Chosen
 INPUT: ""
 OUTPUT: "You must select your gender"
