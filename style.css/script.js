@@ -23,8 +23,6 @@ if (MM < 1 || MM > 12 || MM == 2 && DD > 29) {
 } else if (DD < 1 || DD > 31) {
   alert("PLEASE INSERT A VALID DAY");
 }
-
-
   
 if (female) {
   if (output == 1) {
@@ -51,7 +49,6 @@ if (female) {
 }
 }
 
- 
 
 else if (male) {
   if (output == 1) {
@@ -80,8 +77,6 @@ else if (male) {
 alert("INVALID INPUT,PLEASE INSERT YOUR DETAILS BELOW!");
 }
 }  
-
-
 
 (document).ready(function () {
 
