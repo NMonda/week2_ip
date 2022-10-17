@@ -11,7 +11,7 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 1. Clone the project from github
 2. Open the project on a live server
 3. Run the project
-## BDD
+## Behavior Driven Development
 Displays Form For Entering Date and Gender
 INPUT: "User's Birthdate Entered"
 INPUT: "User's Gender Entered"

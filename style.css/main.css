@@ -39,7 +39,6 @@ p{
 
 /* General Styles End */
 
-/* Alert Styling Start */
 .alert-overlay {
 	position: fixed;
 	height: 100%;
@@ -111,15 +110,6 @@ h1{
 .navbar .icons {
 	float: right;
 }
-
-ul li {
-	display: inline;
-}
-
-ul li a {
-	font-size: 50px;
-	margin: 0 35px;
-	color: #0ee6b7;
 }
 
 a:hover {
@@ -139,19 +129,7 @@ a:hover {
 	width: 50%;
 }
 
-.home-title,
-.akan-name {
-	font-size: 72px;
-	line-height: 108px;
-	letter-spacing: 0.055em;
-	font-weight: bolder;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-stroke: 1.5px #0ee6b7;
-	margin: 40px 0;
-}
-
+.
 .home-left .description {
 	font-size: 24px;
 	line-height: 34px;
